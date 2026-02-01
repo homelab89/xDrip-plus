@@ -1229,13 +1229,13 @@
                 android:key="opennov_screen"
                 android:summary="NFC dose downloading of models 6 and Echo Plus"
                 android:title="@string/title_novopen_insulin_pen">
-                <SwitchPreference
+                <CheckBoxPreference
                     android:defaultValue="false"
                     android:key="opennov_enabled"
-                    android:summary="NFC dose downloading of models 6 and Echo Plus"
+                    android:summary="@string/summary_inpen_open_nov_support"
                     android:switchTextOff="@string/short_off_text_for_switches"
                     android:switchTextOn="@string/short_on_text_for_switches"
-                    android:title="OpenNov support" />
+                    android:title="@string/title_inpen_open_nov_support" />
                 <CheckBoxPreference
                     android:defaultValue="true"
                     android:dependency="opennov_enabled"
