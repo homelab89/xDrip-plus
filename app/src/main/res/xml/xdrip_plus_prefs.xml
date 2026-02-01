@@ -1247,8 +1247,8 @@
                     android:defaultValue="false"
                     android:dependency="opennov_enabled"
                     android:key="opennov_remove_priming"
-                    android:summary="@string/summary_remove_priming_doses"
-                    android:title="@string/title_remove_priming_doses" />
+                    android:summary="@string/summary_inpen_remove_priming_doses"
+                    android:title="@string/title_inpen_remove_priming_doses" />
 
                 <CheckBoxPreference
                     android:defaultValue="false"

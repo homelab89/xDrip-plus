@@ -1528,8 +1528,8 @@
     <string name="title_inpen_orphan_primes_ignored">Ignore Orphan primes</string>
     <string name="summary_inpen_sounds">Use sounds to indicate data transfer with the pen</string>
     <string name="title_inpen_sounds">Play Sounds</string>
-    <string name="summary_remove_priming_doses">Automatically remove priming doses that are the same or less as the priming units value and happen within the priming minutes before the next dose.</string>
-    <string name="title_remove_priming_doses">Remove priming doses</string>
+    <string name="summary_inpen_remove_priming_doses">Automatically remove priming doses that are the same or less as the priming units value and happen within the priming minutes before the next dose.</string>
+    <string name="title_inpen_remove_priming_doses">Remove priming doses</string>
     <string name="summary_inpen_hide_priming_doses">Hide priming dose note entries from graph.</string>
     <string name="title_inpen_hide_priming_doses">Hide priming doses</string>
     <string name="summary_inpen_reset">Reset and search for a new pen in pairing mode</string>
