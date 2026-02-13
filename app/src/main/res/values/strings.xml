@@ -201,7 +201,9 @@
     <string name="libre_last_x_minutes_graph">Libre last %d minutes graph</string>
     <string name="share_config_via_qr_code">Share config via QR code</string>
     <string name="check_for_updated_version">Check for updated version</string>
-    <string name="current_version_is_up_to_date">No update in the selected channel</string>
+    <string name="current_version_is_up_to_date">You have the most recent xDrip version</string>
+    <string name="title_dialog_check_for_update">No update in %1$s channel</string>
+    <string name="message_dialog_check_for_update">A newer version may exist in other channels.</string>
     <string name="send_feedback_to_developer">Send Feedback to developers</string>
     <string name="home_screen">Home Screen</string>
     <string name="event_logs">Event Logs</string>
