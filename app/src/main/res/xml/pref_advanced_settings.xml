@@ -1527,7 +1527,7 @@
                 android:summary="@string/allow_daily_db_save"
                 android:title="@string/daily_save_db" />
             <EditTextPreference
-                android:defaultValue="0"
+                android:defaultValue="180"
                 android:key="retention_days_bg_reading"
                 android:max="366"
                 android:numeric="integer"
