@@ -1625,7 +1625,7 @@
                     android:enabled="true"
                     android:key="Eversense_one_minute"
                     android:summary="Accept data at one-minute intervals from 640G/Eversense. WARNING: This feature is still under development and may break different things. Please report anything you notice not working. Reboot your phone for changes to take effect. Requires engineering mode"
-                    android:title="640G/Eversense one minute" />
+                    android:title="640G/Eversense 1-minute" />
 
                 <CheckBoxPreference
                     android:defaultValue="false"
