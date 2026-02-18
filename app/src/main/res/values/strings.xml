@@ -1110,7 +1110,7 @@
     <string name="title_Batterylog">Batterylog</string>
     <string name="summary_Choose_to_display_the_bridge_battery_level">Choose to display the bridge battery level</string>
     <string name="title_Glucose_Retention">Glucose Retention</string>
-    <string name="summary_Erase_data_older_than_this_many_days">Erase data older than this many days. 0 = don\'t erase anything</string>
+    <string name="summary_Erase_data_older_than_this_many_days">Erase data older than this many days. Setting 0 will keep all data, but xDrip should not be used as a repository — use Nightscout or Tidepool for long-term storage.</string>
     <string name="title_Other_misc_options">Other misc. options</string>
     <string name="summary_allow_testing_with_dead_sensor">allow testing with dead sensor</string>
     <string name="title_NOT_FOR_PRODUCTION_USE">NOT FOR PRODUCTION USE</string>
