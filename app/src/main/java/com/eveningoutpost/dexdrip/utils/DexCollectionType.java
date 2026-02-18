@@ -362,13 +362,17 @@ public enum DexCollectionType {
         return getCollectorSamplePeriod(this);
     }
 
-    private static final boolean libreOneMinute = Pref.getBooleanDefaultFalse("libre_one_minute")
+    private static final boolean libreOneMinute = Pref.getBooleanDefaultFalse("libre_one_minute");
+
+    private static final boolean EversenseOneMinute = Pref.getBooleanDefaultFalse("Eversense_one_minute")
             && Pref.getBooleanDefaultFalse("engineering_mode");
 
     public static long getCollectorSamplePeriod(final DexCollectionType type) {
         switch (type) {
             case LibreReceiver:
                 return libreOneMinute ? 60_000 : 300_000;
+            case NSEmulator:
+                return EversenseOneMinute ? 60_000 : 300_000;
             default:
                 return 300_000; // 5 minutes
         }
