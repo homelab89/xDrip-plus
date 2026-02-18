@@ -939,6 +939,9 @@
     <string name="only_stop_your_sensor_when_you_actually_plan">Only stop your sensor when you actually plan to remove it, otherwise leave it running!</string>
     <string name="restart_collector">Restart Collector</string>
     <string name="forget_device">Forget Device</string>
+    <string name="re_read_transmitter">Reread transmitter</string>
+    <string name="tx_reread_confirmation_title">Refresh transmitter details</string>
+    <string name="tx_reread_confirmation_message">Forces xDrip to reread transmitter characteristics. No benefit if the transmitter has not changed; temporary status page changes may occur. Best used between sensor sessions.</string>
     <string name="other_notes">Other Notes:</string>
     <string name="delete_future_data">Delete Future Data</string>
     <string name="show_only_untranslated">Show only untranslated</string>
