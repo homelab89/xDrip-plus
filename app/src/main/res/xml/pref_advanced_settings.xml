@@ -1538,7 +1538,7 @@
                 android:summary="@string/allow_daily_db_save"
                 android:title="@string/daily_save_db" />
             <EditTextPreference
-                android:defaultValue="0"
+                android:defaultValue="180"
                 android:key="retention_days_bg_reading"
                 android:max="366"
                 android:numeric="integer"
@@ -1625,11 +1625,18 @@
 
                 <CheckBoxPreference
                     android:defaultValue="false"
-                    android:dependency="engineering_mode"
                     android:enabled="true"
                     android:key="libre_one_minute"
-                    android:summary="Accept data at one minute intervals from Libre source. WARNING: This feature is still under development and may break different things. Currently only for patched app data source. Please report anything you notice not working and to activate changes to this setting you need to reboot your phone. Requires engineering mode to be enabled to change setting."
-                    android:title="Libre one minute" />
+                    android:summary="@string/summary_libre_one_minute_interval"
+                    android:title="@string/title_libre_one_minute_interval" />
+
+                <CheckBoxPreference
+                    android:defaultValue="false"
+                    android:dependency="engineering_mode"
+                    android:enabled="true"
+                    android:key="Eversense_one_minute"
+                    android:summary="Accept data at one-minute intervals from 640G/Eversense. WARNING: This feature is still under development and may break different things. Please report anything you notice not working. Reboot your phone for changes to take effect. Requires engineering mode"
+                    android:title="640G/Eversense 1-minute" />
 
                 <CheckBoxPreference
                     android:defaultValue="false"
