@@ -573,7 +573,7 @@
     <string name="snooze_alert_before_it_fires">Snooze alert before it fires</string>
     <string name="create_low_alert">Create low alert</string>
     <string name="create_high_alert">Create high alert</string>
-    <string name="long_press_an_existing_alert_to_edit">(Long Press an existing alert to edit)</string>
+    <string name="long_press_an_existing_alert_to_edit">Long press an existing alert to edit</string>
     <string name="adding">Adding</string>
     <string name="high">high</string>
     <string name="alert">alert</string>
