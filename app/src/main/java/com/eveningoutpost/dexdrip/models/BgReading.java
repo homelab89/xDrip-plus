@@ -1012,9 +1012,10 @@ public class BgReading extends Model implements ShareUploadableBg {
         return list;
     }
 
+    // A candidate reading is rejected if its timestamp falls within this margin of an existing reading.
+    static long readingProximityMarginMs = DexCollectionType.getCurrentSamplePeriod() * 4 / 5;
     public static BgReading readingNearTimeStamp(long startTime) {
-        long margin = (4 * 60 * 1000);
-        return readingNearTimeStamp(startTime, margin);
+        return readingNearTimeStamp(startTime, readingProximityMarginMs);
     }
 
     public static BgReading readingNearTimeStamp(long startTime, final long margin) {
