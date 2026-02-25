@@ -66,6 +66,5 @@ public abstract class ActivityWithMenu extends BaseAppCompatActivity implements 
         }
     }
 
-
     public abstract String getMenuName();
 }
