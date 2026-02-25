@@ -66,16 +66,6 @@ public abstract class ActivityWithMenu extends BaseAppCompatActivity implements 
         }
     }
 
-    @Override
-    protected void onPostCreate(Bundle savedInstanceState) {
-        super.onPostCreate(savedInstanceState);
-
-        if (getSupportActionBar() != null) {
-            getSupportActionBar().setDisplayShowHomeEnabled(true);
-            getSupportActionBar().setDisplayUseLogoEnabled(true);
-            getSupportActionBar().setLogo(R.drawable.ic_launcher);
-        }
-    }
 
     public abstract String getMenuName();
 }
